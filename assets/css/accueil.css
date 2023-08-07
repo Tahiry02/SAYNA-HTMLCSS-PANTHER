@@ -1,0 +1,312 @@
+.bar_content{
+    display: flex;
+    position: fixed;
+    left:20px;
+    top:0px;
+    background-color: #3d2da600;
+    
+}
+
+.lign1{
+    height: 330px;
+    border-left: solid 3px #9e91b7;
+    
+}
+.bt1{
+height: 100%;
+}
+.bt1 .lign2{
+    height: 160px;
+    border-right: solid 3px #9e91b7;
+    
+
+}
+
+.icone{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    position: relative;
+    left: 7px;
+    gap: 13px;
+    margin-top: 25px;
+    background-color: #9e91b700;
+
+}
+.icone img:hover{
+    filter: brightness(40%) saturate(50) hue-rotate(0deg);
+}
+
+#black-panther{
+    display: flex;
+}
+#black-panther .panther img{
+    position: absolute;
+    width: 59%;
+    right: 0px;
+    bottom: 30px;
+}
+#black-panther .text{
+    padding-left: 180px;
+    padding-top: 150px;
+}
+#black-panther .text .first-title{
+    font-size: var(--h1-font-size);
+    font-family: var(--h1-font-family);
+    color: var(--lightgray-color);
+}
+#black-panther .text .second-title{
+    font-size: var(--h2-font-size);
+    font-family: var(--h2-font-family);
+    color: var(--lightgray-color);
+}
+#black-panther .text .description{
+    width: 40%;
+    text-align: justify;
+    font-size: var(--text-font-size);
+    font-family: var(--text-font-family);
+}
+#black-panther .text .voir{
+    text-decoration: underline;
+    font-size: var(--text-font-size);
+}
+
+/* section personnages */
+#personnages{
+    margin-top: 170px;
+    margin-bottom: 0px;
+    height: 280px;
+    width: 92%;
+    margin-left: 20%;
+    margin-right: 0;
+    display: flex;
+    padding-left: 2.5%;
+    background-color: var(--darkblue-color);
+    float: right;
+    display: flex;
+}
+#personnages .voir{
+    text-decoration: underline;
+}
+#personnages .personnage{
+    display: flex;
+}
+#personnages .personnage img{
+    width: 230px;
+    height: 280px;
+    transform: 1s;
+}
+#personnages .personnage img:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+#personnages .personnage-content{
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    display: block;
+}
+#personnages .image .pantherhome{
+    width: 180px;
+    height: 280px;
+    transform: 1s;
+    position: relative;
+}
+#personnages .title{
+    font-size: var(--h2-font-size);
+    font-family: var(--h2-font-family);
+    color: var(--lightgray-color);
+}
+#personnages .description{
+    font-size: var(--text-font-size);
+    font-family: var(--text-font-family);
+    width: 90%;
+}
+#personnages .image .signe{
+    background-color: var(--darkblue-color);
+    border-radius: 90%;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 20px;
+    position: absolute;
+    top: 800px;
+    right: 30px;
+    font-weight: bold;
+}
+
+/* Design naissance de prince */
+#bibiographie{
+    display: flex;
+    width: 100%;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#bibiographie .bibliographie-content .title{
+    font-size: var(--h2-font-size);
+    font-family: var(--h2-font-family);
+    color: var(--lightgray-color);
+    
+}
+#bibiographie .bibliographie-content .description{
+    text-align: justify;
+    width: 83%;
+}
+
+#bibiographie .description ul{
+    list-style-type: none;
+}
+#bibiographie .description ul li:before {
+    content: '- ';
+}
+#bibiographie .biblio{
+    display: flex;
+}
+
+#bibiographie .bibliographie{
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    bottom: 300px;
+    right: 100px;
+}
+#bibiographie .img-tchalla img{
+    position: relative;
+    width: 200%;
+    top: 260px;
+    left: 18.5px;
+}
+#bibiographie .bibliographies{
+    background-color: #ffffffd5;
+    width: 220%;
+    border-radius: 20px;
+    padding-top: 270px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+#bibiographie .bibliographies h2{
+    text-align: center;
+    font-family: var(--text-font-family);
+    color: #000;
+}
+#bibiographie button{
+    padding: 5px 10px;
+    margin: 3px;
+    border: none;
+    color: var(--white-color);
+    background-color: var(--purple-color);
+    border-radius: 5px;
+    justify-content: center;
+}
+#bibiographie .address p{
+    color: black;
+}
+#bibiographie .address span.span{
+    font-weight: bold;
+}
+#bibiographie .address span.victime{
+    font-size: 10px;
+}
+
+#img-panther .img-panther img{
+    width: 30%;
+    float: right;
+    right: 50px;
+    position: absolute;
+    top: 2200px;
+}
+/*  section formulaire */
+#formulaire{
+    background-image: url('../img/Accueil/Pantherhome7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 110vh;
+    padding-top: 130px;
+    color: black;
+    
+}
+#formulaire .formulaire{
+    background-image: linear-gradient(white 20%,rgba(255, 255, 255, 0.092));
+    border-radius: 160px;
+    text-align: center;
+    width: 55%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+#formulaire p{
+    font-family: var(--text-font-family);
+}
+#formulaire h2{
+    font-size: var(--h2-font-size);
+    font-family: var(--text-font-family);
+}
+#formulaire input[type=text], #formulaire input[type=email], #formulaire textarea{
+    width: 50%;
+    padding: 10px 30px 20px;
+    margin: 9px 0;
+    display: inline-block;
+    outline: none;
+    border: 1px solid var(--darkblue-color);
+    border-radius: 30px;
+    background-color: transparent;
+  }
+#formulaire textarea{
+    resize: none;
+    color: var(--white-color);
+  }
+#formulaire input::placeholder, #formulaire textarea::placeholder{
+    color: #000000;
+  }
+  #formulaire input[type=submit]{
+    background-color: var(--lightpink-color);
+    border: none;
+    border-radius: 38px;
+    font-weight: bold;
+    color: var(--darkblue-color);
+    padding: 16px 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 174px;
+    height: 54px;
+}
+ input[type=submit]:hover{
+    box-shadow: 0px 5px 30px 10px var(--lightpink-color);
+}
+
+#popup{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.301) 20%,rgba(255, 255, 255, 0.092));
+    border-radius: 160px;
+    text-align: center;
+    width: 55%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    height: 500px;
+    padding-top: 130px;
+    animation: popup 4s;
+}
+
+.popups{
+    padding: 100px 0px;
+    color: var(--purple-color);
+
+}
+.popups h1{
+    font-family: var(--h2-other-font-family);
+    font-size: var(--h2-other-font-size);
+}
+.popups p{
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--h2-font-family);
+}

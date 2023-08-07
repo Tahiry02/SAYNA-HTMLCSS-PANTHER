@@ -1,0 +1,108 @@
+#forever{
+    background-image: url('../img/Wakanda/Pantherwakanda1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: top center;
+    background-blend-mode: darken;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    padding-top: 220px;
+    z-index: 1;
+}
+#forever .wakanda{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#forever .title{
+    font-size: var(--h1-font-size);
+    font-family: var(--h2-font-family);
+    color: var(--lightgray-color);
+}
+#forever .second-title{
+    font-size: var(--h2-font-size);
+    font-family: var(--h2-other-font-family);
+    color: var(--lightgray-color);
+    word-spacing: 30px;
+    letter-spacing: 15px;
+}
+#forever .descriptif{
+    width: 42%;
+    margin-top: 30px;
+    font-size: var(--text-font-size);
+    font-family: var(--text-font-family);
+    text-align: justify;
+}
+#textuell{
+  width: 88%;
+  margin: 0 auto;
+}
+#textuell .panthere img{
+    position: absolute;
+    top: 800px;
+    width: 90%;
+    z-index: -2;
+    left: 70px;
+  }
+  #textuell h2{
+    font-size: var(--h2-font-size);
+    font-family: var(--h2-font-family);
+    color: var(--lightgray-color);
+  }
+  #textuell .gauche-droit{
+    display: flex;
+    font-size: var(--citation-font-size);
+    font-family: var(--text-font-family);
+    margin: 100px 0px 200px 0px;
+  }
+  #textuell .gauche{
+    animation-name: gauche;
+    animation-duration: 4s;
+    animation-direction: alternate;
+  
+  }
+  #textuell .droite{
+    padding-right: 30px;
+  }
+  #textuell .gauche .origines{
+    text-align: justify;
+    width: 89%;
+  }
+  #textuell .gauche video{
+    width: 89%;
+    background-color: var(--blue-color);
+  }
+  
+  #textuell .gauche .cine-afro{
+    text-align: justify;
+    width: 92.6%;
+  }
+  #textuell .droite .culte{
+    text-align: justify;
+    width: 107%;
+  }
+  #textuell .droite .guerre{
+    text-align: justify;
+    width: 107%;
+  }
+  #textuell .droite ul{
+    list-style-type: none;
+  }
+  #textuell .droite ul li:before {
+    content: '- ';
+  }
+  #textuell .droite .force-militaire{
+    text-align: justify;
+    width: 107%;
+  }
+  #textuell .droite .force-militaire img{
+    width: 100%;
+  }
+  #textuell .droite .anecdotes{
+    text-align: justify;
+    width: 108%;
+  }

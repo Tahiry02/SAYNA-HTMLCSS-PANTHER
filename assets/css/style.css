@@ -1,0 +1,208 @@
+/* Importation de tout les style */
+@import url(../css/accueil.css);
+@import url(../css/enigme.css);
+@import url(../css/wakanda.css);
+@import url(./keyframe.css);
+/* root color */
+:root{
+    --white-color: #ffffff;
+    --lightpink-color: #f2cef2;
+    --lightgray-color: #9e91b7;
+    --pink-color: #df99f2;
+    --purple-color: #3d2da6;
+    --blue-color: #07338c;
+    --darkblue-color: #021740;
+}
+/* root font-size */
+:root{
+    --h1-font-size: 68px;
+    --h2-font-size: 32px;
+    --h2-other-font-size: 43px;
+    --text-font-size: 16px;
+    --citation-font-size: 14px;
+    --footer-font-size: 12px;
+}
+/* font-family */
+@font-face {
+    font-family: 'Panthera';
+    src: url(../font/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../font/Cantarell-Regular.ttf);
+}
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../font/FontsFree-Net-BEYNO.ttf);
+}
+@font-face {
+    font-family: 'Wakanda forever';
+    src: url(../font/wakandaforever-regular.ttf);
+}
+
+/* root font-family */
+:root{
+    --h1-font-family: 'Panthera';
+    --h2-font-family: 'BEYNO';
+    --h2-other-font-family: 'Wakanda forever';
+    --text-font-family: 'Cantarell';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/All_pages/arrière_plan.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+}
+
+/*       HEADER       */
+header .navbar{
+    
+    animation-name: slideIn;
+    animation-duration: 1.9s;
+    animation-fill-mode: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    margin-left: 120px;
+    margin-right: 150px;
+}
+header .navbar img:hover{
+  filter: brightness(20%) sepia(50) saturate(35) hue-rotate(270deg);
+}
+header .navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header a{
+    text-decoration: none;
+}
+header .navbar ul li{
+    display: inline;
+    font-family: var(--h2-font-family);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+header .navbar ul li a {
+  text-align: center;
+  margin-left: 60px;
+}
+header .nav-icon img:hover{
+    filter: opacity(10);
+}
+header a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+header .link-selected a{
+    color: var(--lightgray-color);
+    text-decoration: underline;
+}
+header .nav-link a{
+    color: var(--lightgray-color);
+    text-decoration: underline;
+}
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/*       FOOTER       */
+footer{
+    background-image: url('../img/All_pages/back_footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  footer .footer{
+    animation-name: slideIn;
+    animation-duration: 1.9s;
+    animation-fill-mode: both;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 200px;
+    margin-left: 90px;
+  }
+  
+  footer .footer .imgs{
+    width: 30%;
+  }
+  footer .footer .imgs:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+  
+  footer .footer .imgs .bulles img{
+    width: 75%;
+    opacity: 70%;
+  }
+  
+  footer .footer .imgs .icon-link{
+    position: relative;
+    bottom: 185px;
+    left: 60px;
+  }
+
+  footer .footer .link p, footer .footer .sociaux p{
+    letter-spacing: 10px;
+    font-size: 20px;
+  }
+  footer .footer .sociaux a{
+    padding-right: 32px;
+  }
+  footer .footer .link ul{
+    padding-top: 30px;
+  }
+  footer .footer .link ul li{
+    padding-top: 10px;
+  }
+  footer .footer .sociaux{
+    padding-left: 200px;
+  }
+  footer .footer .sociaux img:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+  }
+  footer .footer .sociaux p{
+    padding-bottom: 40px;
+  }
+  footer .footer .link ul a{
+    text-decoration: none;
+    color: var(--white-color);
+  }
+  footer .footer .link ul li{
+    list-style-type: none;
+  }
+  footer .footer .link ul li a:hover{
+    text-decoration: underline;
+  }
+  footer .tout{
+    
+    animation-name: slideIn;
+    animation-duration: 1.9s;
+    animation-fill-mode: both;
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    padding-left: 665px;
+    font-size: var(--citation-font-size);
+  }
+footer .tout ul{
+    display: flex;
+}
+footer .tout ul li{
+    margin-left: 20px;
+} 
